@@ -1,0 +1,76 @@
+.ranking-section {
+  padding: 20px;
+}
+
+.ranking-header {
+  display: flex;
+  padding-block: 10px;
+  span {
+    padding-block: 10px;
+  }
+  .label {
+    margin-left: 10px;
+    flex-grow: 5;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .updated-date {
+    font-size: 16px;
+  }
+}
+
+.ranking-contents-box {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.ranking-contents {
+  h3 {
+    color: #0ad8c9;
+    font-size: 20px;
+  }
+}
+.ranking-items {
+  display: flex;
+  width: 393px;
+  height: 64.69px;
+  border-radius: 20px;
+  border: 2px solid #ffce2d;
+  align-items: center;
+  .is-first {
+    color: white;
+  }
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  flex-grow: 7;
+  gap: 5px;
+}
+.ranking {
+  padding-inline: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.nickname {
+  padding-top: 5px;
+  font-size: 20px;
+  .is-first {
+    color: white;
+  }
+}
+.medal {
+  justify-content: start;
+}
+.ranking-rise {
+  flex-grow: 1;
+}
+
+.rise-number {
+  color: #e24255;
+  font-size: 20px;
+  font-weight: bolder;
+}
