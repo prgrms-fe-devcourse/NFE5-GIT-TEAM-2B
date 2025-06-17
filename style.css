@@ -1,3 +1,106 @@
 body {
+  background-color: hotpink;
+  color: white;
+  li {
+    list-style-type: none;
+  }
+  padding: 0;
+  margin: 0;
+}
+.contentsBox {
+  width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
   background-color: black;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding-block: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 80px;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #0ad8c9;
+  flex-grow: 1;
+  position: relative;
+  li {
+    position: absolute;
+
+    top: 50%;
+    translate: -0% -50%;
+  }
+}
+.menu {
+  font-size: 20px;
+  font-weight: bolder;
+  flex-grow: 6;
+  display: flex;
+  position: relative;
+}
+.menu > li {
+  flex-grow: 1;
+  position: absolute;
+  top: 50%;
+  translate: -50% -50%;
+}
+.menu > li:nth-child(1) {
+  left: 25%;
+}
+.menu > li:nth-child(2) {
+  left: 50%;
+}
+.menu > li:nth-child(3) {
+  left: 75%;
+}
+.menu > li > .is-active {
+  color: #0ad8c9;
+}
+
+.auth {
+  font-size: 14px;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+  li {
+    flex-grow: 1;
+    position: absolute;
+
+    top: 50%;
+    translate: -50% -50%;
+  }
+  > li:first-child {
+    left: 0%;
+  }
+  > li:last-child {
+    left: 50%;
+  }
+}
+
+.swiper {
+  height: 382px;
+  margin-bottom: 1rem;
+}
+
+.swiper-wrapper {
+  padding: 0;
+  margin: 0;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.swiper-slide > img {
+  width: 100%;
+  height: 100%;
 }
