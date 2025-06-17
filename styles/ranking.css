@@ -1,5 +1,6 @@
 .ranking-section {
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 .ranking-header {
@@ -30,6 +31,7 @@
   h3 {
     color: #0ad8c9;
     font-size: 20px;
+    padding-block: 10px;
   }
 }
 .ranking-items {
@@ -42,6 +44,7 @@
   .is-first {
     color: white;
   }
+  margin-bottom: 5px;
 }
 .user-info {
   display: flex;
@@ -51,6 +54,7 @@
 }
 .ranking {
   padding-inline: 20px;
+  padding-top: 10px;
   font-size: 30px;
   font-weight: bolder;
 }

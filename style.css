@@ -59,9 +59,13 @@ nav {
   > li:nth-child(3) {
     left: 75%;
   }
-  li > .is-active {
+  /* li > .is-active {
     color: #0ad8c9;
-  }
+  } */
+}
+
+.is-menu-active {
+  color: #0ad8c9;
 }
 
 .auth {
