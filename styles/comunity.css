@@ -41,20 +41,25 @@
   height: 66.16px;
   display: flex;
   align-items: center;
-  padding-inline: 30px;
   margin-bottom: 10px;
 }
 .post-tag {
   font-size: 14px;
+  padding-inline: 10px;
   flex-grow: 1;
 }
 
 .post-title {
   font-size: 16px;
   font-weight: bold;
-  flex-grow: 10;
+  flex-grow: 8;
+  width: 670px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .created-date {
   font-size: 14px;
+  flex-grow: 1;
 }

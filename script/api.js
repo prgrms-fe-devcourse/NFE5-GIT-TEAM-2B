@@ -1,4 +1,4 @@
-export const getRankData = async () => {
+const getRankData = async () => {
   try {
     const response = await fetch("http://localhost:3001/rank");
     if (!response.ok) {
@@ -46,6 +46,38 @@ export const renderRank = async () => {
       rankingContents.insertAdjacentHTML("beforeend", rankingItems);
     });
   } catch (err) {
-    console.error("데이터 로딩 실패:", err);
+    throw Error("데이터 로딩 실패:", err);
+  }
+};
+
+const getFreeBoardData = async () => {
+  try {
+    const response = await fetch("http://localhost:3001/freeBoard");
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const renderFreeBoard = async () => {
+  try {
+    let coummunityBox = document.querySelector(".comunity-contents-box");
+    console.log(coummunityBox);
+    const data = await getFreeBoardData();
+    data.forEach((item) => {
+      let communityContents = document.createElement("div");
+      communityContents = /* html */ `<div class="comunity-contents">
+        <span class="post-tag">${item.tag}</span>
+        <p class="post-title">${item.title}</p>
+        <span class="created-date">${item.createdAt}</span>
+      </div>
+      `;
+      coummunityBox.insertAdjacentHTML("beforeend", communityContents);
+    });
+  } catch (error) {
+    throw Error("데이터 로딩 실패:", error);
   }
 };
