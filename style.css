@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: center;
   padding-block: 30px;
+  background-color: black;
 }
 
 nav {

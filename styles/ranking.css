@@ -39,41 +39,71 @@
   width: 393px;
   height: 64.69px;
   border-radius: 20px;
+  border: 2px solid #0ad8c9;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 5px;
+  color: #7b7b7b;
+}
+
+.is-first {
+  display: flex;
+  width: 393px;
+  height: 64.69px;
+  border-radius: 20px;
+  border-radius: 20px;
   border: 2px solid #ffce2d;
   align-items: center;
-  .is-first {
+  margin-bottom: 5px;
+  gap: 20px;
+  p {
     color: white;
   }
-  margin-bottom: 5px;
+  span {
+    color: #e24255;
+  }
 }
 .user-info {
   display: flex;
-  flex-grow: 7;
   gap: 5px;
+  align-items: center;
+}
+.user-img {
+  width: 30px;
 }
 .ranking {
   padding-inline: 20px;
-  padding-top: 5px;
   font-size: 30px;
   font-weight: bolder;
 }
 
 .nickname {
-  padding-top: 15px;
+  width: 180px;
+  padding-top: 5px;
   font-size: 20px;
-  .is-first {
-    color: white;
-  }
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.medal {
-  justify-content: start;
+.medal-img {
+  padding-top: 5px;
+  width: 40px;
 }
 .ranking-rise {
-  flex-grow: 1;
+  padding-top: 5px;
+  color: #0ad8c9;
+  position: relative;
+}
+.up-and-down-img {
+  width: 20px;
+  padding-bottom: 30px;
 }
 
 .rise-number {
-  color: #e24255;
   font-size: 20px;
   font-weight: bolder;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  translate: -50% -50%;
 }
