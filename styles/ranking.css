@@ -48,19 +48,18 @@
 }
 .user-info {
   display: flex;
-  align-items: center;
   flex-grow: 7;
   gap: 5px;
 }
 .ranking {
   padding-inline: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   font-size: 30px;
   font-weight: bolder;
 }
 
 .nickname {
-  padding-top: 5px;
+  padding-top: 15px;
   font-size: 20px;
   .is-first {
     color: white;
