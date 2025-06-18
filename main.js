@@ -1,4 +1,4 @@
-import { renderFreeBoard, renderRank } from "./script/api.js";
+import { renderFreeBoard, renderRank } from "./script/renderApi.js";
 //메뉴바
 const nav = document.querySelector(".menu");
 
