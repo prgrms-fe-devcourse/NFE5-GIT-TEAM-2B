@@ -1,5 +1,5 @@
 import { renderFreeBoard, renderRank } from "./script/api.js";
-
+//메뉴바
 const nav = document.querySelector(".menu");
 
 const handleMenuIsactive = (e) => {
@@ -15,5 +15,6 @@ const handleMenuIsactive = (e) => {
 
 nav.addEventListener("click", handleMenuIsactive);
 
+// 초기화
 renderRank();
 renderFreeBoard();
