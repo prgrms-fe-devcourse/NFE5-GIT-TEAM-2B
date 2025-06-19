@@ -1,9 +1,24 @@
-import { renderFreeBoard, renderRank } from "./script/renderApi.js";
+import { getGroupBoardData } from "./script/getApi.js";
+import {
+  renderFreeBoard,
+  renderGroupBoard,
+  renderRank,
+} from "./script/renderApi.js";
+
+// 초기화
+const init = () => {
+  renderRank();
+  renderFreeBoard();
+};
+
+init();
+
 //메뉴바
 const nav = document.querySelector(".menu");
 
 const handleMenuIsactive = (e) => {
   const menu = document.querySelectorAll(".menu >li");
+  console.log(menu);
   const pick = e.target;
   if (pick.tagName !== "LI") return;
 
@@ -15,6 +30,23 @@ const handleMenuIsactive = (e) => {
 
 nav.addEventListener("click", handleMenuIsactive);
 
-// 초기화
-renderRank();
-renderFreeBoard();
+// 게시판 버튼
+
+const boardButtons = document.querySelector(".button-box");
+console.log(boardButtons);
+
+const handleBoardButton = (e) => {
+  const pick = e.target;
+  console.log(pick);
+  if (pick.tagName !== "BUTTON") return;
+  console.log(boardButtons);
+  if (pick.id === "group-recruitment") {
+    document.querySelector(".comunity-contents-box").innerHTML = "";
+    renderGroupBoard();
+  } else {
+    document.querySelector(".comunity-contents-box").innerHTML = "";
+    renderFreeBoard();
+  }
+  return;
+};
+boardButtons.addEventListener("click", handleBoardButton);
