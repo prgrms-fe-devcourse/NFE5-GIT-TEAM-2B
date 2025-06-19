@@ -1,4 +1,5 @@
 import { setBoardDataList, setRankData } from "./lib/dom/data.js";
+import { setDate } from "./lib/dom/render.js";
 import { bindingEvent } from "./lib/event/listener.js";
 document.addEventListener("DOMContentLoaded", init);
 
@@ -8,4 +9,5 @@ function init() {
   setBoardDataList("freeBoard");
   setRankData("team");
   setRankData("personal");
+  setDate();
 }
