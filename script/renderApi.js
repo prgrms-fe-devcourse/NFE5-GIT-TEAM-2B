@@ -8,24 +8,24 @@ export const renderRank = async () => {
     data.forEach((item) => {
       let rankingItems = document.createElement("div");
       rankingItems = /* html */ `
-         <div class="${item.rank === 1 ? "is-first" : "ranking-items"}">
-        <div class="user-info">
+         <div class="${item.rank === 1 ? "isFirst" : "rankingItems"}">
+        <div class="userInfo">
           <p class="ranking ">${item.rank}</p>
           <img
-            class="user-img"
+            class="userImg"
             src=${item.userSrc}
             alt="유저"
           />
           <p class="nickname">${item.nickname}</p>
           ${
             item.medalSrc
-              ? `<img class="medal-img" src="${item.medalSrc}" alt="메달" />`
-              : `<div class="medal-img"></div>`
+              ? `<img class="medalImg" src="${item.medalSrc}" alt="메달" />`
+              : `<div class="medalImg"></div>`
           }
         </div>
-        <div class="ranking-rise">
-          <img class="up-and-down-img" src=${item.riseSrc} alt="상승" />
-          <span class="rise-number">${item.riseRank}</span>
+        <div class="rankingRise">
+          <img class="upAndDownImg" src=${item.riseSrc} alt="상승" />
+          <span class="riseNumber ">${item.riseRank}</span>
         </div>
         </div>
   `;
@@ -43,15 +43,15 @@ export const renderRank = async () => {
 
 export const renderFreeBoard = async () => {
   try {
-    let coummunityBox = document.querySelector(".comunity-contents-box");
+    let coummunityBox = document.querySelector(".comunityContentsBox");
     console.log(coummunityBox);
     const data = await getFreeBoardData();
     data.forEach((item) => {
       let communityContents = document.createElement("div");
-      communityContents = /* html */ `<div class="comunity-contents">
-          <span class="post-tag">${item.tag}</span>
-          <p class="post-title">${item.title}</p>
-          <span class="created-date">${item.createdAt}</span>
+      communityContents = /* html */ `<div class="comunityContents">
+          <span class="postTag">${item.tag}</span>
+          <p class="postTitle">${item.title}</p>
+          <span class="createdDate">${item.createdAt}</span>
         </div>
         `;
       coummunityBox.insertAdjacentHTML("beforeend", communityContents);
@@ -63,15 +63,15 @@ export const renderFreeBoard = async () => {
 
 export const renderGroupBoard = async () => {
   try {
-    let coummunityBox = document.querySelector(".comunity-contents-box");
+    let coummunityBox = document.querySelector(".comunityContentsBox");
     console.log(coummunityBox);
     const data = await getGroupBoardData();
     data.forEach((item) => {
       let communityContents = document.createElement("div");
-      communityContents = /* html */ `<div class="comunity-contents">
-          <span class="post-tag">${item.tag}</span>
-          <p class="post-title">${item.title}</p>
-          <span class="created-date">${item.createdAt}</span>
+      communityContents = /* html */ `<div class="comunityContents">
+          <span class="postTag">${item.tag}</span>
+          <p class="postTitle">${item.title}</p>
+          <span class="createdDate">${item.createdAt}</span>
         </div>
         `;
       coummunityBox.insertAdjacentHTML("beforeend", communityContents);

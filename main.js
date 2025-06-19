@@ -32,7 +32,7 @@ nav.addEventListener("click", handleMenuIsactive);
 
 // 게시판 버튼
 
-const boardButtons = document.querySelector(".button-box");
+const boardButtons = document.querySelector(".buttonBox");
 console.log(boardButtons);
 
 const handleBoardButton = (e) => {
@@ -41,10 +41,10 @@ const handleBoardButton = (e) => {
   if (pick.tagName !== "BUTTON") return;
   console.log(boardButtons);
   if (pick.id === "group-recruitment") {
-    document.querySelector(".comunity-contents-box").innerHTML = "";
+    document.querySelector(".comunityContentsBox").innerHTML = "";
     renderGroupBoard();
   } else {
-    document.querySelector(".comunity-contents-box").innerHTML = "";
+    document.querySelector(".comunityContentsBox").innerHTML = "";
     renderFreeBoard();
   }
   return;

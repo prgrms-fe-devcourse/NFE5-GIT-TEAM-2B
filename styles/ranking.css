@@ -1,9 +1,9 @@
-.ranking-section {
+.rankingSection {
   padding: 20px;
   margin-bottom: 30px;
 }
 
-.ranking-header {
+.rankingHeader {
   display: flex;
   padding-block: 10px;
   span {
@@ -12,29 +12,29 @@
   .label {
     margin-left: 10px;
     flex-grow: 5;
-    font-size: 20px;
+    font-size: 2rankingSection0px;
     font-weight: bolder;
   }
-  .updated-date {
+  .updatedDate {
     font-size: 16px;
   }
 }
 
-.ranking-contents-box {
+.rankingContentsBox {
   display: flex;
   flex-direction: row;
   padding: 10px;
   justify-content: space-between;
 }
 
-.ranking-contents {
+.rankingContents {
   h3 {
     color: #0ad8c9;
     font-size: 20px;
     padding-block: 10px;
   }
 }
-.ranking-items {
+.rankingItems {
   display: flex;
   width: 393px;
   height: 64.69px;
@@ -46,7 +46,7 @@
   color: #7b7b7b;
 }
 
-.is-first {
+.isFirst {
   display: flex;
   width: 393px;
   height: 64.69px;
@@ -63,12 +63,12 @@
     color: #e24255;
   }
 }
-.user-info {
+.userInfo {
   display: flex;
   gap: 5px;
   align-items: center;
 }
-.user-img {
+.userImg {
   width: 30px;
 }
 .ranking {
@@ -85,21 +85,21 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.medal-img {
+.medalImg {
   padding-top: 5px;
   width: 40px;
 }
-.ranking-rise {
+.rankingRise {
   padding-top: 5px;
   color: #0ad8c9;
   position: relative;
 }
-.up-and-down-img {
+.upAndDownImg {
   width: 20px;
   padding-bottom: 30px;
 }
 
-.rise-number {
+.riseNumber {
   font-size: 20px;
   font-weight: bolder;
   position: absolute;
