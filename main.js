@@ -1,5 +1,11 @@
+import { setBoardDataList, setRankData } from "./lib/dom/data.js";
 import { bindingEvent } from "./lib/event/listener.js";
+document.addEventListener("DOMContentLoaded", init);
 
-document.addEventListener("DOMContentLoaded", () => {
+
+function init(){
   bindingEvent();
-});
+  console.log("init 실행됨");
+  setBoardDataList("freeBoard");
+  setRankData("rank")
+}

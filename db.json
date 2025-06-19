@@ -1,107 +1,18 @@
 {
-  "rank": [
-    {
-      "id": 1,
-      "rank": 1,
-      "isTeam": true,
-      "nickname": "team-나는1등",
-      "userSrc": "./assets/icons/king.png",
-      "medalSrc": "./assets/icons/gold.png",
-      "riseSrc": "./assets/icons/redUp.png",
-      "riseRank": 10
-    },
-    {
-      "id": 2,
-      "rank": 2,
-      "isTeam": true,
-      "nickname": "얏호team나는2등~!",
-      "userSrc": "./assets/icons/ranker.png",
-      "riseSrc": "./assets/icons/blueUp.png",
-      "medalSrc": "./assets/icons/silver.png",
-      "riseRank": 0
-    },
-    {
-      "id": 3,
-      "rank": 3,
-      "isTeam": true,
-      "nickname": "team나3등~!",
-      "userSrc": "./assets/icons/ranker.png",
-      "riseSrc": "./assets/icons/blueUp.png",
-      "medalSrc": "./assets/icons/bronze.png",
-      "riseRank": 2
-    },
-    {
-      "id": 4,
-      "rank": 4,
-      "isTeam": true,
-      "nickname": "team나는4등~!",
-      "userSrc": "./assets/icons/ranker.png",
-      "riseSrc": "./assets/icons/blueUp.png",
-      "medalSrc": null,
-      "riseRank": 0
-    },
-    {
-      "id": 5,
-      "rank": 5,
-      "isTeam": true,
-      "nickname": "team오등이지롱 예ㅣ예이예이오ㅓ아ㅏ아아ㅏ아ㅏㅇ~!",
-      "userSrc": "./assets/icons/ranker.png",
-      "riseSrc": "./assets/icons/blueUp.png",
-      "medalSrc": null,
-      "riseRank": 120
-    },
-    {
-      "id": 6,
-      "rank": 1,
-      "isTeam": false,
-      "nickname": "나는1등",
-      "userSrc": "./assets/icons/king.png",
-      "medalSrc": "./assets/icons/gold.png",
-      "riseSrc": "./assets/icons/redUp.png",
-      "riseRank": 10
-    },
-    {
-      "id": 7,
-      "rank": 2,
-      "isTeam": false,
-      "nickname": "얏호나는2등~!",
-      "userSrc": "./assets/icons/ranker.png",
-      "riseSrc": "./assets/icons/blueUp.png",
-      "medalSrc": "./assets/icons/silver.png",
-      "riseRank": 0
-    },
-    {
-      "id": 8,
-      "rank": 3,
-      "isTeam": false,
-      "nickname": "나3등~!",
-      "userSrc": "./assets/icons/ranker.png",
-      "medalSrc": "./assets/icons/bronze.png",
-      "riseSrc": "./assets/icons/blueUp.png",
-      "riseRank": 1
-    },
-    {
-      "id": 9,
-      "rank": 4,
-      "isTeam": false,
-      "nickname": "나는4등~!",
-      "riseSrc": "./assets/icons/blueUp.png",
-      "userSrc": "./assets/icons/ranker.png",
-      "medalSrc": null,
-      "riseRank": 12
-    },
-    {
-      "id": 10,
-      "rank": 5,
-      "isTeam": false,
-      "riseSrc": "./assets/icons/blueUp.png",
-      "nickname": "오등이지롱 예ㅣ예이예이오ㅓ아ㅏ아아ㅏ아ㅏㅇ~!",
-      "userSrc": "./assets/icons/ranker.png",
-      "medalSrc": null,
-      "riseRank": 120
-    }
+  "personal": [
+    { "id": 1, "name": "kim", "score": 95, "team": "kimTeam" },
+    { "id": 2, "name": "park", "score": 195, "team": "parkTeam" },
+    { "id": 3, "name": "nana", "score": 10, "team": "naTeam" },
+    { "id": 4, "name": "bulk", "score": 200, "team": "bulkTema" },
+    { "id": 5, "name": "time", "score": 450, "team": "clock" }
   ],
-
+  "team": [
+    { "id": 1, "name": "kimTeam", "score": 95, "member": ["kim"] },
+    { "id": 2, "name": "parkTeam", "score": 195, "member": ["park"] },
+    { "id": 3, "name": "naTeam", "score": 10, "member": ["park"] },
+    { "id": 4, "name": "bulkTema", "score": 200, "member": ["park"] },
+    { "id": 5, "name": "clock", "score": 450, "member": ["park"] }
+  ],
   "freeBoard": [
     {
       "id": 1,
