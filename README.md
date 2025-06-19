@@ -23,3 +23,11 @@ npm run api
 #프론트엔드 개발 서버 실행 (포트 8080)
 npm run dev
 ```
+
+| 이름   | 역할 | GitHub              |
+|--------|------|---------------------|
+| 김영민 | 팀장 | [hb-k-3376](https://github.com/hb-k-3376) |
+| 이지훈 | 서기 | [KimJJRoSY](https://github.com/KimJJRoSY) |
+| 박소연 | 팀원 | [kimym98](https://github.com/kimym98)   |
+| 박소연 | 팀원 | [sbbtt](https://github.com/sbbtt)     |
+| 박소연 | 팀원 | [serom5641](https://github.com/serom5641) |
