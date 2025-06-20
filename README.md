@@ -23,12 +23,21 @@ npm run api
 #프론트엔드 개발 서버 실행 (포트 8080)
 npm run dev
 ```
+
 ### 팀 구성원
 
-| 이름   | 역할 | GitHub              |
-|--------|------|---------------------|
+| 이름   | 역할 | GitHub                                    |
+| ------ | ---- | ----------------------------------------- |
 | 김현빈 | 팀장 | [hb-k-3376](https://github.com/hb-k-3376) |
 | 김정주 | 서기 | [KimJJRoSY](https://github.com/KimJJRoSY) |
-| 김영민 | 팀원 | [kimym98](https://github.com/kimym98)   |
-| 이석주 | 팀원 | [sbbtt](https://github.com/sbbtt)     |
+| 김영민 | 팀원 | [kimym98](https://github.com/kimym98)     |
+| 이석주 | 팀원 | [sbbtt](https://github.com/sbbtt)         |
 | 이새롬 | 팀원 | [serom5641](https://github.com/serom5641) |
+
+기능 gif
+
+![se＿one＿ani＿20250620＿161311＿a](https://github.com/user-attachments/assets/37f6c289-c36e-4dd8-a7e5-326664cee93f)
+⬆️ 로그인 로직 구현 (깃허브 아이디로 연결)
+
+![se＿one＿ani＿20250620＿161709＿a](https://github.com/user-attachments/assets/323c53aa-43b0-4ce5-9150-dec1a807d8ab)
+⬆️ 게시판
