@@ -1,4 +1,5 @@
 ![코다이브 로고](https://sdmntprwestus2.oaiusercontent.com/files/00000000-9744-61f8-a2f2-1670ce1a43a7/raw?se=2025-06-16T08%3A51%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=47b84a22-2042-52dd-b579-96a445dd957f&skoid=a3412ad4-1a13-47ce-91a5-c07730964f35&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-16T04%3A32%3A40Z&ske=2025-06-17T04%3A32%3A40Z&sks=b&skv=2024-08-04&sig=TNcTh4OFBwvRzXNbJvH4w7Bq0L/%2BtLkIuIhK/zG/2XU%3D)
+![스크린샷 2025-06-20 180359](https://github.com/user-attachments/assets/d12fb09d-a7e8-46c1-809c-b25159fe2355) ⬅️ 메인페이지
 
 **CoDive**는 사용자들이 소규모 조(그룹)를 이루어 알고리즘 문제를 함께 풀고,
 
@@ -24,6 +25,19 @@ npm run api
 npm run dev
 ```
 
+
+
+기능 gif
+
+![로그인](https://github.com/user-attachments/assets/8c4a1c90-b386-4c0d-adb8-b2ab8caca6b2) ⬅️ 로그인 로직 구현 (깃허브 아이디로 연결)
+
+
+
+![커뮤니티](https://github.com/user-attachments/assets/c3fb0e67-bb32-4a14-8510-22658732dd1b) ⬅️ 게시판
+
+
+
+
 ### 팀 구성원
 
 | 이름   | 역할 | GitHub                                    |
@@ -33,11 +47,3 @@ npm run dev
 | 김영민 | 팀원 | [kimym98](https://github.com/kimym98)     |
 | 이석주 | 팀원 | [sbbtt](https://github.com/sbbtt)         |
 | 이새롬 | 팀원 | [serom5641](https://github.com/serom5641) |
-
-기능 gif
-
-![se＿one＿ani＿20250620＿161311＿a](https://github.com/user-attachments/assets/37f6c289-c36e-4dd8-a7e5-326664cee93f)
-⬆️ 로그인 로직 구현 (깃허브 아이디로 연결)
-
-![se＿one＿ani＿20250620＿161709＿a](https://github.com/user-attachments/assets/323c53aa-43b0-4ce5-9150-dec1a807d8ab)
-⬆️ 게시판
