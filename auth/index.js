@@ -14,7 +14,6 @@ export const auth = {
     elements.logoutBtn.addEventListener('click', authHandlers.handleLogout);
   },
   init() {
-    console.log('하이');
     renderAuthSection();
 
     this.bindEvent();
