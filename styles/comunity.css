@@ -24,7 +24,7 @@
     color: black;
   }
 }
-.is-button-active {
+.buttonBox .is-button-active {
   background: #0ad8c9;
   color: black;
 }
@@ -41,26 +41,33 @@
   border-radius: 10px;
   height: 66.16px;
   display: flex;
-  align-items: center;
   margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+  cursor: pointer;
 }
+
 .postTag {
   font-size: 14px;
   padding-inline: 10px;
-  flex-grow: 1;
 }
 
 .postTitle {
   font-size: 16px;
   font-weight: bold;
   flex-grow: 8;
-  width: 670px;
+  flex: 1;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding-inline-end: 20px;
+
+  &:hover {
+    color: #0ad8c9;
+  }
 }
 
 .createdDate {
   font-size: 14px;
-  flex-grow: 1;
 }

@@ -58,14 +58,14 @@ nav {
 
   li {
     cursor: pointer;
+
+    &:hover {
+      color: var(--border-primary);
+    }
   }
 }
 
-li:hover {
-  color: var(--border-primary);
-}
-
-.is-menu-active {
+li .is-menu-active {
   color: var(--border-primary);
 }
 
@@ -98,7 +98,6 @@ footer {
   background-color: var(--bg);
   translate: -50% 0;
   padding: 10px;
-  border-top: 1px dotted var(--text-90);
 
   .comment {
     color: var(--text);

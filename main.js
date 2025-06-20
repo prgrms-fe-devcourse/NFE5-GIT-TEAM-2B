@@ -10,7 +10,7 @@ function init() {
   // 게시판
   setBoardDataList('freeBoard');
 
-  // 랭킹
+  // // 랭킹
   setRankData('team');
   setRankData('personal');
   setDate();
