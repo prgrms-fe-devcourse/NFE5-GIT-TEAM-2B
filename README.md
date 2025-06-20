@@ -23,3 +23,11 @@ npm run api
 #프론트엔드 개발 서버 실행 (포트 8080)
 npm run dev
 ```
+
+기능 gif
+
+![se＿one＿ani＿20250620＿161311＿a](https://github.com/user-attachments/assets/37f6c289-c36e-4dd8-a7e5-326664cee93f)
+⬆️ 로그인 로직 구현 (깃허브 아이디로 연결)
+
+![se＿one＿ani＿20250620＿161709＿a](https://github.com/user-attachments/assets/323c53aa-43b0-4ce5-9150-dec1a807d8ab)
+⬆️ 게시판
