@@ -2,6 +2,7 @@ import { auth } from './auth/index.js';
 import { setBoardDataList, setRankData } from './lib/dom/data.js';
 import { setDate } from './lib/dom/render.js';
 import { bindingEvent } from './lib/event/listener.js';
+import {} from './lib/swiper.js';
 
 function init() {
   // 이벤트 바인딩
