@@ -33,16 +33,14 @@ npm run dev
 
 ### 팀 구성원
 
-| 이름   | 역할 | GitHub                                    |
-| ------ | ---- | ----------------------------------------- |
-| 김현빈 | 팀장 | [hb-k-3376](https://github.com/hb-k-3376) |
-| 김정주 | 서기 | [KimJJRoSY](https://github.com/KimJJRoSY) |
-| 김영민 | 팀원 | [kimym98](https://github.com/kimym98)     |
-| 이석주 | 팀원 | [sbbtt](https://github.com/sbbtt)         |
-| 이새롬 | 팀원 | [serom5641](https://github.com/serom5641) |
+| 이름   | 역할 | GitHub                                      |
+| ------ | ---- | ------------------------------------------- |
+| 김현빈 | 팀장 | [hb-k-3376](https://github.com/hb-k-3376)   |
+| 김정주 | 서기 | [KimJJRoSY](https://github.com/KimJJRoSY)   |
+| 김영민 | 팀원 | [kimym98](https://github.com/kimym98)       |
+| 이석주 | 팀원 | [sbbtt](https://github.com/sbbtt)           |
+| 이새롬 | 팀원 | [serom5641](https://github.c❤️‍🔥om/serom5641) |
 
-### 깃 허브 충돌 해결하기
-
-<!-- 이름을 작성해 보세요~! -->
+### ❤️‍🔥깃 허브 충돌 해결하기
 
 김정주
