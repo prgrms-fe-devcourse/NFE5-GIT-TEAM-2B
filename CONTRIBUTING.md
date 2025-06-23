@@ -21,3 +21,4 @@ style 클래스 명 : kebab-case
 선정 방법 - GITHUB FLOW
 
 - main브랜치를 두고 기능별로 feat.(기능명) 으로 브랜치를 분리한다.
+- pr후 merge의 방식 3가지
