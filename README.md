@@ -46,3 +46,7 @@ npm run dev
 김정주
 
 이석주
+
+### (선택) B: README 파일에 CONTRIBUTING 파일의 링크를 첨부하세요.
+
+https://github.com/prgrms-fe-devcourse/NFE5-GIT-TEAM-2B/blob/main/CONTRIBUTING.md
